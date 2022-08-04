@@ -1,0 +1,148 @@
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1.hero-text{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+a{
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.hero{
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 400px 75px 400px;
+}
+
+.header-logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-desc{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.links{
+    display: flex;
+    gap: 5px;
+}
+
+.hero-info{
+    display:flex;
+}
+
+.hero-text-left{
+    margin-right: 50px;
+}
+
+.cta-button-hero{
+    background-color: #3882f6;
+    color: white;
+    border-radius:10px;
+    padding:10px 30px;
+    border:0;
+    font-size: 18px;
+}
+
+.hero-image{
+    width: 500px;
+    height:300px;
+    object-fit:cover;
+}
+
+.info-section{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom:50px;
+}
+
+.info-cards{
+    display:flex;
+    gap:30px;
+    padding: 0 400px;
+}
+
+.card{
+    text-align: center;
+    color: #e5e7eb;
+}
+
+.card-image{
+    border-radius: 10px;
+    border: 2px solid #3882f6;
+    height:200px;
+}
+
+.quotes{
+    background-color: #e5e7eb;
+    padding:100px 400px;
+    display:flex;
+    flex-direction: column;
+}
+
+.quote{
+    font-weight: 200;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.quote-name{
+    font-weight: 700;
+    font-size: 18px;
+    margin-left:auto;
+}
+
+.cta-section{
+    padding: 100px 400px;
+}
+
+.cta-frame{
+    background-color: #3882f6;
+    color: white;
+    padding: 30px 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-main-text{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.cta-sub-text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.cta-button{
+    font-size: 18px;
+    padding:10px 30px;
+    background-color:#3882f6;
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+}
